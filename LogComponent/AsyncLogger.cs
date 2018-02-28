@@ -1,11 +1,11 @@
-﻿using System;
-using System.Collections.Concurrent;
-namespace LogTest
+﻿namespace LogTest
 {
     using System.Collections.Generic;
     using System.Linq;
     using System.Threading;
     using System.Threading.Tasks;
+    using System;
+    using System.Collections.Concurrent;
 
     public class AsyncLogger : IAsyncLogger
     {
