@@ -53,11 +53,5 @@
       <Version>2.3.1</Version>
     </PackageReference>
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\LogTest\LogComponent.csproj">
-      <Project>{ee0cc7d7-a1a0-4a16-80e5-8b80b480eb47}</Project>
-      <Name>LogComponent</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
